@@ -1,0 +1,57 @@
+.addon-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    row-gap: .3rem;
+    color: hsl(213, 96%, 18%);
+    border: 1px solid hsl(231, 11%, 63%);
+    border-radius: .5rem;
+    padding: 1.5em 1.5em;
+    cursor: pointer;
+}
+
+.left-continer{
+    display: flex;
+    align-items: center;
+    column-gap: 1em;
+}
+
+.addon-container:hover{
+    border-color: hsl(243, 100%, 62%)
+}
+
+.check-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1em;
+    height: 1em;
+    border: 1px solid hsl(231, 11%, 63%);
+    border-radius: .2em;
+}
+
+.check-box i {
+    font-size: .7em;
+    color: hsl(231, 100%, 99%);;
+}
+.active{
+    background: hsl(217, 100%, 97%);
+    border-color:hsl(243, 100%, 62%);
+}
+
+.active .check-box{
+    background: hsl(243, 100%, 62%);
+    border: none;
+}
+
+.plan-description{
+    font-size: 12px;
+    color: hsl(231, 11%, 63%);
+}
+
+.plan-price{
+    font-size: 12px;
+    color: hsl(243, 100%, 62%);
+}

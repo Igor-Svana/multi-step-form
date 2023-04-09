@@ -1,0 +1,21 @@
+.thank-you-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  row-gap: 1.5em;
+  width: 65%;
+  height: 100%;
+  padding: 2.5em 0;
+}
+
+.thank-you-container h1 {
+  align-self: center;
+}
+
+@media (max-width: 650px) {
+  .thank-you-container {
+    width: 98%;
+  }
+}

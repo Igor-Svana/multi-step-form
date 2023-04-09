@@ -1,0 +1,74 @@
+.planbox-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: .3rem;
+    color: hsl(213, 96%, 18%);
+    border: 1px solid hsl(231, 11%, 63%);
+    border-radius: .8rem;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.active{
+    background: hsl(217, 100%, 97%);
+    border-color: hsl(243, 100%, 62%)
+}
+
+.planbox-container:hover{
+    border-color:hsl(243, 100%, 62%)
+}
+
+.plan-name{
+    font-size: 14px;
+    font-weight: 500;
+}
+.plan-text-container{
+    display: flex;
+    flex-direction: column;
+}
+ 
+.planbox-container .plan-price{
+    font-size: 12px;
+    color: hsl(231, 11%, 63%);
+}
+
+.free-plan{
+    color: hsl(213, 96%, 18%);
+    font-size: 0;
+    transition: 0.8s font-size ease-in-out;
+}
+
+.show{
+    font-size: 12px;
+}
+
+.icon{
+    width: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+@media (max-width:650px){
+    .planbox-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 1em;
+        border-radius: .4rem;
+      
+    }
+    .icon{
+        margin-bottom: 0;
+    }
+
+    .plan-name{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .planbox-container .plan-price{
+        font-size: 14px;
+    }
+    
+}
