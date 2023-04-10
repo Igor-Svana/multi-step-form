@@ -52,6 +52,7 @@
 @media (max-width:650px){
     .planbox-container{
         width: 100%;
+        min-height: 70px;
         display: flex;
         flex-direction: row;
         align-items: center;
