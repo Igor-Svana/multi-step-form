@@ -1,5 +1,6 @@
 .planbox-container{
     width: 100%;
+    min-height: 150px;
     display: flex;
     flex-direction: column;
     row-gap: .3rem;

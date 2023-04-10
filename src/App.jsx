@@ -8,7 +8,7 @@ import FinishUp from "./screens/finish-up/finish-up";
 import ThankYou from "./screens/last/last";
 
 function App() {
-  const [step, setStep] = useState(1);
+  const [step, setStep] = useState(2);
   const [sub, setSub] = useState(false);
   const [confirm, setConfirm] = useState(false)
   
